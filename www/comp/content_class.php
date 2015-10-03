@@ -5,8 +5,8 @@ require_once "modules_class.php";
 class Content extends Modules {
 
     protected $title = "Интернет-магазин";
-    protected $meta_desc = "Интернет-магазин по продаже DVD-Дисков";
-    protected $meta_key = "Интернет-магазин, dvd";
+    protected $meta_desc = "Интернет-магазин по продаже книг";
+    protected $meta_key = "Интернет-магазин, книги";
 
     protected function getContent() {
         $this->setLinkSort();

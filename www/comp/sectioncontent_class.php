@@ -10,8 +10,8 @@ class SectionContent extends Modules {
             return $this->notFound();
         }
         $this->title = $section_info["title"];
-        $this->meta_desc = "Список фильмов из раздела " . $section_info["title"];
-        $this->meta_key = mb_strtolower("список фильмов, список фильмов жанр, список фильмов жанр " . $section_info["title"]);
+        $this->meta_desc = "Список книг из раздела " . $section_info["title"];
+        $this->meta_key = mb_strtolower("список книг, список книг жанр, список книг жанр " . $section_info["title"]);
 
         $this->setLinkSort();
         $sort = $this->data["sort"];

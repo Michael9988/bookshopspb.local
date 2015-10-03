@@ -5,8 +5,8 @@ require_once "modules_class.php";
 class OrderContent extends Modules {
 
     protected $title = "Оформление заказа";
-    protected $meta_desc = "Оформление заказа на покупку фильмов.";
-    protected $meta_key = "заказ, оформление заказа, оформление заказа фильмы";
+    protected $meta_desc = "Оформление заказа на покупку книг.";
+    protected $meta_key = "заказ, оформление заказа, оформление заказа книги";
 
     protected function getContent() {
         $this->template->set("message", $this->message());

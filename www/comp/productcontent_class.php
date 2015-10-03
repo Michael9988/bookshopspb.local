@@ -11,8 +11,8 @@ class ProductContent extends Modules {
         }
 
         $this->title = $product_info["title"];
-        $this->meta_desc = "Описание и покупка фильма " . $product_info["title"];
-        $this->meta_key = mb_strtolower("описание фильм " . $product_info["title"] . ", купить фильм " . $product_info["title"]);
+        $this->meta_desc = "Описание и покупка книги " . $product_info["title"];
+        $this->meta_key = mb_strtolower("описание книга " . $product_info["title"] . ", купить книгу " . $product_info["title"]);
 
         $this->template->set("link_section", $this->url->section($product_info["section_id"]));
         $this->template->set("product", $product_info);
